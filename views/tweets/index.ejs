@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweets Index</title>
+</head>
+<body>
+    <div class="tweets-content">
+    <h1 style="font-size: 3rem;">Tweets</h1>
+    <hr>
+    <h2>Post a tweet below!</h2>
+    <ul>
+        <% for(let t of tweets) {%> 
+        <li> <%= t.username %> says: <br> <b> <%= t.tweet %> </b>
+        <a href="/tweets/<%= t.id %> ">Details</a></li>
+        <% } %> 
+    </ul>
+    <a href="/tweets/new">Post Tweet</a>
+</div>
+</body>
+</html>
