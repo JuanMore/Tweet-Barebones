@@ -1,5 +1,5 @@
 # Post a Tweet- Very Barebones app
-A Node.js  and Express.js basic tweet app - *first project with node and expressing and creating restful routes
+A Node.js  and Express.js basic tweet app - *first project with node and express as well as creating restful routes
 This project requires nodejs, npm, method override and express. I used UUIDv4 to get a random ID for each tweet.
 This was an exciting project for me to work on because It was was first brush with these technologies. I ran into a few bugs where my edit.ejs ids weren't defined however I managed to fix the issue and complete the project...for now.  
 
